@@ -15,13 +15,13 @@ git config --global user.email hironsuz@gmail.com
 cd desktop
 mkdir intro_git
 ```
-その中にfirst.txtというファイルを作成する。
-```bash
-vi first.txt
-```
 intro_gitディレクトに移動する。
 ```bash
 cd ~/desktop/intro_git/
+```
+その中にfirst.txtというファイルを作成する。
+```bash
+vi first.txt
 ```
 初期化する
 ```bash
@@ -43,9 +43,9 @@ COMMIT_EDITMSG description    info           refs
 ```
 
 # 基本的なワークフロー
-① ファイルの変更をステージングエリアへ追加する(git add)
-② ローカルリポジトリにコミットする(git commit)
-③ リモートリポジトリにプッシュする(git push)
+① ファイルの変更をステージングエリアへ追加する(git add)  
+② ローカルリポジトリにコミットする(git commit)  
+③ リモートリポジトリにプッシュする(git push)  
 
 intro_gitディレクトリへ移動する
 ```bash
@@ -126,7 +126,6 @@ git status
 ```
 first.txtが変更されたと表示される。
 ```bash
-~/d/intro_git ❯❯❯ git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
