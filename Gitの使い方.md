@@ -43,7 +43,7 @@ COMMIT_EDITMSG description    info           refs
 ```
 
 # 基本的なワークフロー
-① ファイルの変更をステージングエリアへ追加する(git add)<br>  
+① ファイルの変更をステージングエリアへ追加する(git add)<br>
 ② ローカルリポジトリにコミットする(git commit)<br>
 ③ リモートリポジトリにプッシュする(git push)<br>
 
