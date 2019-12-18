@@ -58,10 +58,13 @@ vi first.txt
 # なんかを変更
 ```
 
+### git add
 変更をステージングエリアへ追加する。
 ```bash
 git add first.txt
 ```
+
+### git commit
 次にコミットする
 ```bash
 git commit
@@ -83,6 +86,7 @@ git commit
  10 #
  ```
 
+### git push
 githubへプッシュする。
 プッシュするリポジトリをGithubで作成する。
 Githubを開き、"new repository"からintro_gitという名前でリポジトリを作成する。
