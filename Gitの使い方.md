@@ -43,9 +43,9 @@ COMMIT_EDITMSG description    info           refs
 ```
 
 # 基本的なワークフロー
-① ファイルの変更をステージングエリアへ追加する(git add)  
-② ローカルリポジトリにコミットする(git commit)  
-③ リモートリポジトリにプッシュする(git push)  
+① ファイルの変更をステージングエリアへ追加する(git add)<br>  
+② ローカルリポジトリにコミットする(git commit)<br>
+③ リモートリポジトリにプッシュする(git push)<br>
 
 intro_gitディレクトリへ移動する
 ```bash
