@@ -29,13 +29,14 @@ git init
 ```
 すると、.gitディレクトリに、Gitリポジトリが作られる。
 ```bash
-~/d/intro_git ❯❯❯ git init
 Reinitialized existing Git repository in /Users/hironsuz/Desktop/intro_git/.git/
 ```
 
 .gitディレクトリの中身を確認してみる。
 ```bash
-~/d/intro_git ❯❯❯ ls -a .git
+ls -a .git
+```
+```bash
 .              HEAD           hooks          logs
 ..             config         index          objects
 COMMIT_EDITMSG description    info           refs
