@@ -93,8 +93,9 @@ git remote add origin https://github/hironsuz/intro_git.git
 ```
 
 リモートリポジトリにプッシュする。
+```bash
 git push -u origin master
-
+```
 
 # 変更をコミットする
 ファイルを変更したら、、
